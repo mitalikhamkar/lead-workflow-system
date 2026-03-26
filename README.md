@@ -37,3 +37,39 @@ Input → Validation → Classification → Action
 - Services handle logic separately
 - Model defines data structure
 - Routes manage endpoints
+
+## 🛠️ How to Run the Project
+
+1. Clone the repository:
+git clone https://github.com/YOUR_USERNAME/lead-workflow-system.git
+
+2. Navigate into the project folder:
+cd lead-workflow-system/lead-system
+
+3. Install dependencies:
+npm install
+
+4. Start the server:
+node server.js
+
+Server will run on:
+http://localhost:3000
+
+## 📡 API Testing
+
+Use Postman or any API tool:
+
+POST http://localhost:3000/api/leads
+
+Body:
+{
+  "name": "Mitali",
+  "email": "mitali@gmail.com",
+  "source": "Instagram"
+}
+
+## 🧠 Notes
+
+- This project focuses on backend architecture and workflow design
+- UI is intentionally not included
+- All logic is separated into modular services
