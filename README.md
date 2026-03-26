@@ -41,7 +41,7 @@ Input → Validation → Classification → Action
 ## 🛠️ How to Run the Project
 
 1. Clone the repository:
-git clone https://github.com/YOUR_USERNAME/lead-workflow-system.git
+git clone https://github.com/mitalikhamkar/lead-workflow-system.git
 
 2. Navigate into the project folder:
 cd lead-workflow-system/lead-system
